@@ -1,4 +1,0 @@
-local a = require(game:GetService("Players").Orbitilations.Backpack.HK33["ACS_Settings"])
-    
-    a.AmmoInGun = math.huge;
-    a.MaxStoredAmmo = math.huge;
