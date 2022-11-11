@@ -25,15 +25,15 @@ local playerNames = {}
 local teamNames = {}
 
 -- thanks inori and wally
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/Library.lua'))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/orbitilations/stuff/main/UI"))()
 local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/addons/SaveManager.lua'))()
 SaveManager:SetLibrary(Library)
 SaveManager:SetFolder("HitboxExtender")
-Library:Notify("Universal GUIs Loaded")
-local mainWindow = Library:CreateWindow("Personal object of abuse")
+Library:Notify("Universal Fuckery Loaded")
+local mainWindow = Library:CreateWindow("Hitbox expander")
 
-local mainTab = mainWindow:AddTab("Main")
-local mainGroupbox = mainTab:AddLeftGroupbox("Hitbox Extender")
+local mainTab = mainWindow:AddTab("General")
+local mainGroupbox = mainTab:AddLeftGroupbox("Main")
 local ignoresGroupbox = mainTab:AddRightGroupbox("Ignores")
 local miscGroupbox = mainTab:AddLeftGroupbox("Misc")
 
